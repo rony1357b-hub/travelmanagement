@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About - Travel Management</title>
+<style>
+    :root { --blue: #075985; --blue2: #0284c7; --light: #f2f7fa; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; background: var(--light); color: #183247; }
+    header { background: var(--blue); color: white; text-align: center; padding: 22px 12px; }
+    header h1 { margin: 0 0 8px; }
+    nav { background: #0c4a6e; padding: 14px; text-align: center; }
+    nav a { color: white; text-decoration: none; margin: 8px 12px; font-weight: bold; display: inline-block; }
+    nav a:hover { color: #facc15; }
+    .container { width: min(1100px, 94%); margin: 24px auto; }
+    .panel { background: white; padding: 18px; margin: 18px 0; border-radius: 9px; box-shadow: 0 2px 8px #00000012; overflow-x: auto; }
+    h2 { color: var(--blue); }
+    form { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; align-items: end; }
+    label { display: block; font-weight: bold; margin-bottom: 5px; }
+    input, select { width: 100%; padding: 10px; border: 1px solid #b7c8d3; border-radius: 5px; }
+    button { background: var(--blue2); color: white; border: 0; border-radius: 5px; padding: 10px 14px; cursor: pointer; }
+    button:hover { background: var(--blue); }
+    button.secondary { background: #64748b; }
+    button.danger { background: #b91c1c; }
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; min-width: 600px; }
+    th, td { border: 1px solid #d2dce3; padding: 10px; text-align: left; }
+    th { background: var(--blue2); color: white; }
+    tr:nth-child(even) { background: #f0f9ff; }
+    .message { min-height: 22px; font-weight: bold; color: #075985; }
+    .actions { display: flex; gap: 6px; }
+    footer { background: var(--blue); color: white; text-align: center; padding: 15px; margin-top: 35px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+    .card { background: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 8px #00000012; }
+    .card strong { display: block; font-size: 28px; color: var(--blue2); }
+</style>
+</head>
+<body>
+<header><h1>Online Travel Package Booking System</h1><p>About this mini project</p></header>
+<nav><a href="index3.html" >Home</a><a href="packages3.html" >Packages</a><a href="customers3.html" >Customers</a><a href="bookings3.html" >Bookings</a><a href="about3.html" aria-current="page">About</a></nav>
+<main class="container">
+  <section class="panel">
+    <h2>About the Project</h2>
+    <p>The Online Travel Package Booking Management System is a beginner-friendly web application for maintaining travel packages, customer information and booking records.</p>
+    <h2>Technologies Used</h2>
+    <ul>
+      <li>HTML and CSS for the website pages</li>
+      <li>JavaScript for browser interactions</li>
+      <li>Node.js and Express.js for the backend</li>
+      <li>MySQL for storing project records</li>
+      <li>MySQL Workbench for graphical database management</li>
+    </ul>
+    <h2>Main Features</h2>
+    <ul>
+      <li>Add, view, update and delete travel packages</li>
+      <li>Add, view, update and delete customer details</li>
+      <li>Add, view, update and delete booking records</li>
+      <li>View all three database tables on the home page</li>
+    </ul>
+    <p><strong>Note:</strong> This is an educational mini project. It does not process real payments or verify travel availability.</p>
+  </section>
+</main>
+<footer>Online Travel Package Booking System - Mini Project</footer>
+</body>
+</html>
